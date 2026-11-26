@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -28,6 +28,7 @@
         <img
           class="header__logo-image"
           src="./images/logo-black.svg"
+          alt="логотип проекта"
         >
       </a>
       <ul class="header__contacts-list">
@@ -43,10 +44,11 @@
       </ul>
     </header>
     <main>
-      <div class="cover" id="1">
+      <section class="cover" id="1">
         <img 
           class="cover__overlay"
           src="./images/cover.jpg"
+          alt="оно тебе надо"
         >
         <div class="cover__title">
           <p class="it">оно</p>
@@ -61,8 +63,8 @@
           <p> не верил </p>
           <button>СДЕЛАТЬ СТАВКУ</button>
         </div>
-      </div>
-      <div class="lots" id="2">
+      </section>
+      <section class="lots" id="2">
         <p class="lots__title">Лоты</p>
         <div class="frame1">
           <img
@@ -76,6 +78,7 @@
           <img
             class="lot__overlay"
             src="./images/card-lot-02.jpg"
+            alt="заставка первого лота"
           >
           <p class="lot__title">Книга, где описан один скучный день из жизни рекламного агента</p>
           <p class="lot__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
@@ -84,18 +87,20 @@
           <img
             class="lot__overlay"
             src="./images/card-lot-03.jpg"
+            alt="заставка второго лота"
           >
           <p class="lot__title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
           <p class="lot__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
         </div>
         <a class="more_lots" href="#2">посмотреть больше</a>
-      </div>
-      <div class="about" id="3">
+      </section>
+      <section class="about" id="3">
         <div class="about__logo-column">
           <div class="about__logo-circle">
             <img
               class="about__logo-image"
               src="./images/logo-white.svg"
+              alt="заставка третьего лота"
             >
           </div>
         </div>
@@ -111,7 +116,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer">
       <ul class="footer__contacts-list">
@@ -142,14 +147,17 @@
         <img
           class="footer__socials-image"
           src="./images/yt.svg"
+          alt="иконка ютуба"
         >
         <img
           class="footer__socials-image"
           src="./images/vk.svg"
+          alt="иконка вк"
         >
         <img
           class="footer__socials-image"
           src="./images/pinterest.svg"
+          alt="иконка пинтреста"
         >
       </div>
     </footer>
