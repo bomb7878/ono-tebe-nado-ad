@@ -284,8 +284,7 @@ body {
     line-height: 120%;
 
     position: relative;
-    margin-top: auto;
-    margin-bottom: 0; 
+    margin: auto auto 0;
     z-index: 3;
 }
 
